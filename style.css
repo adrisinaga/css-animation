@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Biko;
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/biko-black.woff");
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container{
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+}
+
+video{
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 20vw;
+    font-family: Biko, sans-serif;
+    font-weight: 700;
+    line-height: 100vw;
+    background: white;
+    text-transform: uppercase;
+    text-align: center;
+    mix-blend-mode: screen;
+}
